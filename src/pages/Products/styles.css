@@ -8,6 +8,7 @@
 .profile-container header {
     display: flex;
     align-items:center;
+    flex-wrap: wrap;
 }
 .profile-container header span {
     font-size:20;
@@ -16,6 +17,7 @@
 
 .profile-container header img{
     height:6;
+    padding: 20px;  
 }
 
 .profile-container header a{

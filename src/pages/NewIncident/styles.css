@@ -9,6 +9,8 @@
     justify-content: center;
 }
 
+
+
 .newincident-container .content {
     width: 100%;
     padding: 96px;
@@ -21,10 +23,21 @@
     justify-content: space-between;
     align-items: center;
 }
+@media (max-width:425px) {
+    .newincident-container .content {
+        padding: 26px !important;
+    }
+}
 
 .newincident-container .content section{
-    width: 100%;
+    width: 100vw;
     max-width: 380px;
+}
+@media (max-width:425px) {
+    .newincident-container .content section img {
+      margin: 60px 0 0;
+        max-width: 200px;
+    }
 }
 .newincident-container .content section h1 {
     margin: 64px 0 32px;    
